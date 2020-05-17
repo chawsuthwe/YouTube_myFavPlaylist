@@ -1,6 +1,6 @@
 
-const key = 'AIzaSyApe7HWoD5ubrzYypEuAyR5JTWVaMpvK9E';
-const playlistId = 'PLQ6yLYmD-IdauG6YO6fDpcXJDONfPj_C8';
+const key = process.env.key;
+const playlistId = process.env.playlistId;
 var URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
 const options = {
